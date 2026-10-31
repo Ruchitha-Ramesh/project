@@ -1,0 +1,32 @@
+/* App-wide styles */
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+html,
+body {
+  width: 100%;
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f8fafc;
+}
+
+/* Remove default button styling conflicts */
+button {
+  font-family: inherit;
+}
+
+/* Responsive dashboard layout */
+* {
+  box-sizing: border-box;
+}
