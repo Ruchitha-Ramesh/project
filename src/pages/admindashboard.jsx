@@ -24,7 +24,7 @@ export default function AdminDashboard() {
         setError("");
 
         const response = await fetch(
-          "http://localhost:5000/api/admin/dashboard",
+          "https://project-qcsh.vercel.app/api/admin/dashboard",
           { signal: controller.signal }
         );
 

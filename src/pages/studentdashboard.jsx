@@ -33,7 +33,7 @@ export default function StudentDashboard() {
         setError("");
 
         const response = await fetch(
-          `http://localhost:5000/api/student/attendance/${studentId}`,
+          `https://project-qcsh.vercel.app/api/student/attendance/${studentId}`,
           { signal: controller.signal }
         );
 

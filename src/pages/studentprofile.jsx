@@ -50,7 +50,7 @@ export default function StudentProfile() {
 
       try {
         const response = await fetch(
-          "http://localhost:5000/api/students"
+          "https://project-qcsh.vercel.app/api/students"
         );
         const data = await response.json();
 
@@ -92,7 +92,7 @@ export default function StudentProfile() {
 
       try {
         const response = await fetch(
-          `http://localhost:5000/api/student/profile/${selectedStudentId}`
+          `https://project-qcsh.vercel.app/api/student/profile/${selectedStudentId}`
         );
         const data = await response.json();
 
